@@ -1,0 +1,59 @@
+body {
+    background-color: black;
+}
+
+* {
+    color: white;
+}
+
+.container {
+    width: 75%;
+    min-height: 350px;
+    display: flex;
+    margin: 150px auto ;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.container span {
+    color: rgba(207, 85, 235, 0.744);
+}
+
+.title {
+    background-color: rgb(21, 13, 52);
+    width: 50%;
+    padding: 25px 30px;
+}
+
+.text{
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 50%;
+}
+
+.number {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    filter:hue-rotate(280deg);
+}
+
+.number2 {
+    margin: auto 100px;
+}
+.number p {
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.number h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
